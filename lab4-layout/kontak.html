@@ -1,0 +1,82 @@
+```html
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="container">
+
+        <header>
+            <h1>Layout Sederhana</h1>
+        </header>
+
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="artikel.html">Artikel</a>
+            <a href="about.html">About</a>
+            <a href="kontak.html" class="active">Kontak</a>
+        </nav>
+
+        <section id="hero">
+            <h1>Kontak</h1>
+            <p>Silakan isi formulir di bawah ini untuk menghubungi kami.</p>
+        </section>
+
+        <section id="wrapper">
+
+            <section id="main">
+                <h2>Formulir Kontak</h2>
+
+                <form action="#" method="post">
+                    <p>
+                        <label for="nama">Nama:</label><br>
+                        <input type="text" id="nama" name="nama"
+                               placeholder="Masukkan nama" required>
+                    </p>
+
+                    <p>
+                        <label for="email">Email:</label><br>
+                        <input type="email" id="email" name="email"
+                               placeholder="Masukkan email" required>
+                    </p>
+
+                    <p>
+                        <label for="pesan">Pesan:</label><br>
+                        <textarea id="pesan" name="pesan" rows="6"
+                                  placeholder="Tulis pesan kamu" required></textarea>
+                    </p>
+
+                    <p>
+                        <button type="submit" class="btn btn-default">
+                            Kirim Pesan
+                        </button>
+                    </p>
+                </form>
+            </section>
+
+            <aside id="sidebar">
+                <div class="widget-box">
+                    <h3 class="title">Informasi Kontak</h3>
+                    <p>
+                        Gunakan formulir di samping untuk menuliskan
+                        nama, email, dan pesan.
+                    </p>
+                </div>
+            </aside>
+
+        </section>
+
+        <footer>
+            <p>&copy; 2026 - Praktikum Pemrograman Web</p>
+        </footer>
+
+    </div>
+
+</body>
+</html>
+```
